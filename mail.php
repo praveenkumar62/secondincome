@@ -40,7 +40,7 @@
         </html>';
 
     $headers = array(
-        'Authorization: Bearer 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',
+        'Authorization: Bearer <update api key>',
         'Content-Type: application/json'
     );
 

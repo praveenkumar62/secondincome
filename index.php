@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&family=Playfair+Display&family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&family=Playfair+Display&family=Poppins&family=Rubik:wght@700&display=swap" rel="stylesheet">
     <title>Second Income</title>
 </head>
-<body>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
     <div class="container-navbar">
         <nav class="navbar navbar-default navbar-fixed-top topnav">
             <div class="container-fluid">
@@ -23,7 +24,7 @@
                     <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand brand-header" href="/">
-                        <img src="./Images/logo.png" height="25px" alt="second income" />
+                        <img src="./Images/logo.png" alt="second income" />
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -39,25 +40,150 @@
     </div>
 
     <div class="home-container">
-        <div class="intro-container">
-            <div style="position:relative;top:-55px;z-index:-1">
-                <img src="./Images/home-main-bg.png" alt="background" class="img-responsive custom-main-bg-img"/>
-                <div class="overlay"></div>
-            </div>
-            <div class="container intro-content">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div>
-                            <h1>Improving the health and sustainability of the organizations.</h1>
-                            <p class="hidden-xs">NIH offers a free and easy way for you to get trusted, up-to-date health information from the National Institutes of Health directly onto your website.</p>
-                            <br class="hidden-xs" />
-                            <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+        <div class="intro-container" style="position:relative">
+            <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel" style="position:relative;">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner carousel-height">
+
+                    <div class="item active">
+                        <img src="./Images/home-main-bg1.png" alt="background" class="img-responsive custom-main-bg-img"/>
+                        <div class="container intro-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div>
+                                        <h1 style="width:100%">Currently working and want to earn more from other source ?</h1>
+                                        <br class="hidden-xs" />
+                                        <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
 
+                    <div class="item">
+                        <img src="./Images/home-main-bg2.png" alt="background" class="img-responsive custom-main-bg-img"/>
+                        <div class="container intro-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div>
+                                        <h1>Retired and looking out for another source of income ?</h1>
+                                        <br class="hidden-xs" />
+                                        <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./Images/home-main-bg3.png" alt="background" class="img-responsive custom-main-bg-img"/>
+                        <div class="container intro-content">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div>
+                                        <h1>Laid off due to current <br />situation ?</h1>
+                                        <br class="hidden-xs" />
+                                        <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <a class="left carousel-control carousel-ctrls" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control carousel-ctrls" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> -->
+            <div class="temp-main-bg-img">
+            </div>
+            <div id="main-img-1" class="main-bg-img">
+                <img src="./Images/home-main-bg1.png" alt="background" class="img-responsive custom-main-bg-img"/>
+                <div class="container intro-content">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
+                            <div>
+                                <h1 style="width:100%;font-family: 'Poppins', sans-serif;">Currently working and want to earn more from other source ?</h1>
+                                <br class="hidden-xs" />
+                                <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-9 hidden-sm hidden-xs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main-img-2" class="main-bg-img" style="display:none;">
+                <img src="./Images/home-main-bg2.png" alt="background" class="img-responsive custom-main-bg-img"/>
+                <div class="container intro-content">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6 col-sm-9 col-xs-9">
+                            <div>
+                                <h1 style="font-family:'Poppins', sans-serif;">Retired and looking out for another source of income ?</h1>
+                                <br class="hidden-xs" />
+                                <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main-img-3" class="main-bg-img ctrl-last" style="display:none;">
+                <img src="./Images/home-main-bg3.png" alt="background" class="img-responsive custom-main-bg-img"/>
+                <div class="container intro-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-9">
+                            <div>
+                                <h1 style="font-family:'Poppins', sans-serif;">Laid off due to current situation ?</h1>
+                                <br class="hidden-xs" />
+                                <a href="#services-section" class="btn btn-standard no-shadow">Explore</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quickaccess-container">
+            <div class="container">
+                <p class="text-center hidden-sm hidden-xs">Secondary income refers to the sum of all incomes of a person excluding the
+                    primary income. <br />
+                    <span style="text-align:left;display:block;margin:15px 42px 10px 42px;">There are two primary reasons to have a second income:</span>
+                    <ul>
+                        <li>A kind of insurance should the first job fail (the economy is unfavourable, management makes poor business decisions, 
+                        a disruptive technology out competes your company for market share).</li>
+                        <li>The other is to improve your personal situation and that of your family.</li>
+                    </ul>
+                    </p>
+                <p class="text-center hidden-lg hidden-md hidden-xs">Secondary income refers to the sum of all incomes of a person excluding the
+                    primary income. There are two primary reasons to have a second income: A kind
+                    of insurance should the first job fail (the economy is unfavourable, management
+                    makes poor business decisions, a disruptive technology out competes your
+                    company for market share) and the other is to improve your personal situation
+                    and that of your family.</p>
+                <p class="text-center hidden-lg hidden-md hidden-sm">Secondary income refers to the sum of all incomes of a person excluding the
+                    primary income. There are two primary reasons to have a second income: A kind
+                    of insurance should the first job fail and the other is to improve your personal situation
+                    and that of your family.</p>
+                <br class="hidden-sm hidden-md hidden-lg" />    
             </div>
         </div>
 
@@ -72,7 +198,7 @@
                         <div class="panel best-panel panel-zoom">
                             <img src="./Images/best-consulting.jpg" alt="services" class="img-responsive" />
                             <div class="padding-15 best-content">
-                                <h3>Consulting</h3>
+                                <h3 style="font-size: 20px;font-weight: bold;">Consulting</h3>
                                 <p>General consultation are undertaken for any kind of startups or business during the development stage. General consultation are undertaken for any kind of startups or business during the development stage.</p>
                             </div>
                         </div>
@@ -81,8 +207,8 @@
                         <div class="panel best-panel panel-zoom">
                             <img src="./Images/best-planning.jpg" alt="services" class="img-responsive" />
                             <div class="padding-15 best-content">
-                                <h3>Strategic planning</h3>
-                                <p>Strategic planning is an important feature to look after while starting a business.Strategic planning is an important feature to look after while starting a business.Strategic planning is an important feature to look after while starting a business.</p>
+                                <h3 style="font-size: 20px;font-weight: bold;">Strategic Planning</h3>
+                                <p>Strategic Planning is an important feature to look after while starting a business. Strategic Planning is an important feature to look after while starting a business. Strategic Planning is an important feature to look after while starting a business.</p>
                             </div>
                         </div>
                     </div>
@@ -90,7 +216,7 @@
                         <div class="panel best-panel panel-zoom">
                             <img src="./Images/best-training.jpg" alt="services" class="img-responsive" />
                             <div class="padding-15 best-content">
-                                <h3>Training and development</h3>
+                                <h3 style="font-size: 20px;font-weight: bold;">Training and Development</h3>
                                 <p>Gone are the days of traditional ways of marketing. In this digital age, business houses.Gone are the days of traditional ways of marketing. In this digital age, business houses.Gone are the days of traditional ways of marketing. In this digital age, business houses.</p>
                             </div>
                         </div>
@@ -109,9 +235,10 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <div class="services-content-1">
-                            <small>Why Us</small>
+                            <!-- <small>Why Us</small> -->
                             <h2 class="home-header">
-                                S_ccess Cannot be, <br />defined without<br />U.
+                                <!-- Sccess cannot be <br />defined without<br /><span style="font-size:50px;">U</span>. -->
+                                What we do
                             </h2>
                             <hr class="container-ruler" />
                             <p>Secondincome.xyz is designed to help individuals, businessmen, working professionals, housewives, retired persons and everybody who has a financial goal. We will provide a platform to enable technology, knowledge, skill-sets, experience and wisdom targeted towards your goals. Our team comprises of serial entrepreneurs, academicians, business coaches, corporate trainers and technology experts with a collective experience of more than 100+ years.</p>
@@ -155,7 +282,7 @@
                                 </div>
                             </div>
 
-                            <div class="panel panel-services">
+                            <div class="panel panel-services" style="background: url(Images/success.png);background-size: cover;background-repeat: no-repeat;">
                                 <div class="row" style="opacity:0">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="padding-20">
@@ -185,7 +312,7 @@
                                     </div>
                                 </div>
                                 <div class="new-service-content">
-                                    <p>Live Healthy, Wealthy & Happy.</p>
+                                    <p style="color:#fff;font-family: 'Poppins', sans-serif;"><span style="margin-right:20px;">S</span>ccess cannot be <br />defined without<br /><span style="font-size:50px;">U</span>.</p>
                                 </div>
                             </div>
                         </div>    
@@ -215,7 +342,7 @@
                                     <div class="joinus-content">
                                         <h3>Create Magic!</h3>
                                         <br />
-                                        <h2 class="hidden-xs hidden-sm">We do you a favour to make you a money saver!</h2>
+                                        <h2 class="hidden-xs hidden-sm">Let's get together &amp; create financially free world</h2>
                                     </div>
                                 </div>
                             </div>
@@ -355,7 +482,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <div class="footer-left">
-                        <h2><a href='/'>SecondIncome</a></h2>
+                        <h2><a href='/'>SecondIncome.xyz</a></h2>
                         <p><i class="fa fa-copyright"></i> Copyrights SecondIncome 2020. All Rights Reserved.</p>
                     </div>
                 </div>
@@ -372,10 +499,10 @@
                         <p class="address"><i class="fa fa-phone"></i>&nbsp; <span>90352 00026</span></p>
                         <p class="address" style="min-height:40px"><i class="fa fa-map-marker"></i>&nbsp; <span>#4, Dwarka Mai, 2nd Cross, Avani Sringeri Nagar, BG Road, Bengaluru.560076</span></p>
                         <p class="social-menus">
-                            <a href='https://www.fb.com'><i class="fa fa-facebook"></i></a>
+                            <a href='https://www.facebook.com/Second-Income-101096384981371/?modal=admin_todo_tour'><i class="fa fa-facebook"></i></a>
                             <a href='https://www.fb.com'><i class="fa fa-instagram"></i></a>
-                            <a href='https://www.twitter.com'><i class="fa fa-twitter"></i></a>
-                            <a href='https://linkedin.com'><i class="fa fa-linkedin"></i></a>
+                            <a href='https://www.linkedin.com/company/second-income'><i class="fa fa-linkedin"></i></a>
+                            <a href='tel:+919886100026'><i class="fa fa-whatsapp"></i></a>
                         </p>
                     </div>
                 </div>
@@ -387,4 +514,25 @@
         </div>
     </div>
 </body>
+
+<script>
+    $(document).ready(function(){
+        function infiniteSlide() {
+            $('.main-bg-img').each(function(e){
+                var self = $(this);
+                setTimeout(function () { 
+                    if($(self).attr('id')!='main-img-3') {
+                        $(self).fadeOut(1000); 
+                        $(self).next().fadeIn(1000);
+                    } else {
+                        $(self).fadeOut(1000);
+                        $(self).prev().prev().fadeIn(1000);
+                        infiniteSlide();
+                    }
+                }, 6000 * (e + 1));
+            });
+        }
+        infiniteSlide();
+    });
+</script>
 </html>
